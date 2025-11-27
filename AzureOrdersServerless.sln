@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureOrdersServerless", "AzureOrdersServerless.csproj", "{8B5ABE10-4388-4596-BE03-CE13836AF4A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderProcessor", "OrderProcessor\OrderProcessor.csproj", "{0288CA01-7BAB-2761-1E65-8139AFEA16AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B5ABE10-4388-4596-BE03-CE13836AF4A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B5ABE10-4388-4596-BE03-CE13836AF4A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B5ABE10-4388-4596-BE03-CE13836AF4A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B5ABE10-4388-4596-BE03-CE13836AF4A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0288CA01-7BAB-2761-1E65-8139AFEA16AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0288CA01-7BAB-2761-1E65-8139AFEA16AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0288CA01-7BAB-2761-1E65-8139AFEA16AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0288CA01-7BAB-2761-1E65-8139AFEA16AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5F1005A8-6161-4EC9-9B42-428698F53D22}
+	EndGlobalSection
+EndGlobal
